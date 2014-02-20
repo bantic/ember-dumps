@@ -3,11 +3,33 @@ layout: default
 title: Your New Jekyll Site
 ---
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+<div class='container'>
+  <h1>Ember Dumps</h1>
+
+  <ul class="ember-dumps">
+    {% for dump in site.data.dumps %}
+    <li class='ember-dump'>
+      <h2>{{ dump.title }}</h2>
+
+      <div class='screencast'>
+        {{ dump.embed }}
+      </div>
+
+      <p class='description'>
+        {{ dump.description }}
+      </p>
+
+      <p class='duration'>
+       {{ dump.duration }}
+      </p>
+
+      <p class='author'>
+        {{ dump.author}}
+
+        <a href='http://twitter.com/{{ dump.twitter}}'>twitter</a>
+        <a href='http://gitub.com/{{ dump.gitub}}'>github</a>
+      </p>
+    </li>
     {% endfor %}
   </ul>
 </div>
