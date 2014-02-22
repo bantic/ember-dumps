@@ -1,3 +1,12 @@
+#- title: The title of your EmberDump
+#  description: A description of your EmberDump
+#  author: Your name
+#  link: URL to your twitter, github, wherever
+#  embed: Use a size of 560x315 pixels for your embed
+#  ember_version: the version of ember this was recorded with (optional)
+#  duration: "HH:MM" (optional)
+#  date: "YYYY-MM-DD" (optional)
+
 - title: Ember.Controller versus Ember.ObjectController
   ember_version: 1.4.0
   description: Differences between Ember.Controller and Ember.ObjectController.

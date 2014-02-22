@@ -36,7 +36,7 @@ a:visited { color: #a0a; }
 /*****************************************************************************/
 
 #header {
-  background-image: url(/images/nav_2x.png);
+  background-image: url(../images/nav_2x.png);
   background-size: 480px 60px;
   position: fixed;
   top: 0;
@@ -111,5 +111,5 @@ a:visited { color: #a0a; }
 }
 
 body {
-  background: url(/images/bg/agsquare.png);
+  background: url(../images/bg/agsquare.png);
 }
