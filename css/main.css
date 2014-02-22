@@ -44,8 +44,68 @@ a:visited { color: #a0a; }
   height: 60px;
   line-height: 60px;
   font-size: 36px;
+  font-family: 'Capriola', sans-serif;
+  color: #FFF;
+  text-shadow: rgba(0, 0, 0, 0.3) 0 1px 0;
+
+  border-bottom: 1px solid #AA412F;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 0 3px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.3) 0 0 3px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 0 3px;
 }
 
 #container {
-  margin-top: 80px;
+  height: 100%;
+}
+
+.ember-dumps {
+  padding-top: 100px;
+  width: 700px;
+  height: 100%;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.2);
+
+  list-style-type: none;
+}
+
+.ember-dump {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #BBB;
+  padding: 1em;
+  width: 620px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.ember-dump .screencast {
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid black;
+}
+
+.ember-dump h2 {
+  color: #CCC;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 24px;
+}
+
+.ember-dump .details {
+  width: 500px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.ember-dump .duration,
+.ember-dump .ember-version,
+.ember-dump .date {
+  margin: 0;
+  padding: 0;
+}
+
+.ember-dump a, .ember-dump a:visited {
+  color: #FFF;
+}
+
+body {
+  background: url(/images/bg/agsquare.png);
 }

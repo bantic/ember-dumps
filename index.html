@@ -1,34 +1,45 @@
 ---
 layout: default
-title: EmberDumps
+title: Ember Dumps
 ---
 
 <div id='container'>
-  <h1>Ember Dumps</h1>
-
   <ul class="ember-dumps">
     {% for dump in site.data.dumps %}
     <li class='ember-dump'>
-      <h2>{{ dump.title }}</h2>
-
       <div class='screencast'>
         {{ dump.embed }}
       </div>
 
-      <p class='description'>
-        {{ dump.description }}
-      </p>
+      <h2>{{ dump.title }}</h2>
 
-      <p class='duration'>
-       {{ dump.duration }}
-      </p>
+      <div class='details'>
+        <p class='description'>
+          {{ dump.description }}
+        </p>
 
-      <p class='author'>
-        {{ dump.author}}
+        {% if dump.duration %}
+        <p class='duration'>
+         Duration: {{ dump.duration }}
+        </p>
+        {% endif %}
 
-        <a href='http://twitter.com/{{ dump.twitter}}'>twitter</a>
-        <a href='http://gitub.com/{{ dump.gitub}}'>github</a>
-      </p>
+        {% if dump.duration %}
+          <p class='date'>
+          Date: {{ dump.date | date_to_string}}
+          </p>
+        {% endif %}
+
+        {% if dump.ember_version %}
+        <p class='ember-version'>
+          Ember version: {{dump.ember_version}}
+        </p>
+        {% endif %}
+
+        <p class='author'>
+          Author: <a href='{{dump.link}}'>{{ dump.author}}</a>
+        </p>
+      </div>
     </li>
     {% endfor %}
   </ul>

@@ -2,9 +2,9 @@
   ember_version: 1.4.0
   description: Differences between Ember.Controller and Ember.ObjectController.
   duration: "11:23"
+  date: '2014-02-18'
   author: Cory Forsyth
-  github: bantic
-  twitter: bantic
+  link: http://twitter.com/bantic
   embed: <iframe src="//player.vimeo.com/video/87040410" width="500"
         height="281" frameborder="0" webkitallowfullscreen
         mozallowfullscreen allowfullscreen></iframe>
