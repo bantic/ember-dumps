@@ -55,7 +55,7 @@ a:visited { color: #a0a; }
 }
 
 #container {
-  height: 100%;
+  min-height: 100%;
 }
 
 .ember-dumps {
@@ -75,22 +75,26 @@ a:visited { color: #a0a; }
   width: 620px;
   margin: 0 auto;
   border-radius: 10px;
+  margin-bottom: 2em;
 }
 
 .ember-dump .screencast {
   margin-bottom: 1em;
   padding-bottom: 1em;
-  border-bottom: 1px solid black;
 }
 
 .ember-dump h2 {
+  width: 80%;
+  margin: 0 auto;
   color: #CCC;
   font-family: 'Maven Pro', sans-serif;
   font-size: 24px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid black;
 }
 
 .ember-dump .details {
-  width: 500px;
+  width: 80%;
   margin: 0 auto;
   text-align: left;
 }

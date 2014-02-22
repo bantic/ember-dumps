@@ -5,6 +5,27 @@
   date: '2014-02-18'
   author: Cory Forsyth
   link: http://twitter.com/bantic
-  embed: <iframe src="//player.vimeo.com/video/87040410" width="500"
-        height="281" frameborder="0" webkitallowfullscreen
+  embed: <iframe src="//player.vimeo.com/video/87040410" width="560"
+        height="315" frameborder="0" webkitallowfullscreen
         mozallowfullscreen allowfullscreen></iframe>
+
+- title: Transition promises, redirects
+  author: Alex Machtneer
+  link: https://twitter.com/machty
+  duration: '16:54'
+  date: '2014-02-11'
+  embed: <iframe width="560" height="315" src="//www.youtube.com/embed/EwkaMRJ2tMo?rel=0" frameborder="0" allowfullscreen></iframe>
+
+- title: 'POJOs vs Ember Objects, Ember.get'
+  author: Alex Machtneer
+  link: https://twitter.com/machty
+  duration: '10:28'
+  date: '2014-02-13'
+  embed: <iframe width="560" height="315" src="//www.youtube.com/embed/h4w7ZqCk0zg?rel=0" frameborder="0" allowfullscreen></iframe>
+
+- title: 'Animated If Statement'
+  author: Alex Machtneer
+  link: https://twitter.com/machty
+  duration: '10:28'
+  date: '2014-02-02'
+  embed: <iframe width="560" height="315" src="//www.youtube.com/embed/aFZ-b3pEK_Y?rel=0" frameborder="0" allowfullscreen></iframe>
