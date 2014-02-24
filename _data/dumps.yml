@@ -19,21 +19,28 @@
         mozallowfullscreen allowfullscreen></iframe>
 
 - title: Transition promises, redirects
-  author: Alex Machtneer
+  author: Alex Matchneer
   link: https://twitter.com/machty
   duration: '16:54'
   date: '2014-02-11'
   embed: <iframe width="560" height="315" src="//www.youtube.com/embed/EwkaMRJ2tMo?rel=0" frameborder="0" allowfullscreen></iframe>
 
+- title: 'POJOs vs Ember Objects, Ember.set'
+  author: Alex Matchneer
+  link: https://twitter.com/machty
+  duration: '2:24'
+  date: '2014-02-13'
+  embed: <iframe width="560" height="315" src="//www.youtube.com/embed/BIaQk8D4lV8?rel=0" frameborder="0" allowfullscreen></iframe>
+
 - title: 'POJOs vs Ember Objects, Ember.get'
-  author: Alex Machtneer
+  author: Alex Matchneer
   link: https://twitter.com/machty
   duration: '10:28'
   date: '2014-02-13'
   embed: <iframe width="560" height="315" src="//www.youtube.com/embed/h4w7ZqCk0zg?rel=0" frameborder="0" allowfullscreen></iframe>
 
 - title: 'Animated If Statement'
-  author: Alex Machtneer
+  author: Alex Matchneer
   link: https://twitter.com/machty
   duration: '10:28'
   date: '2014-02-02'
